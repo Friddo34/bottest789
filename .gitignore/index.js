@@ -9,7 +9,7 @@ bot.on('ready', function() {
 
 });
 
-bot.login(Token)
+bot.login(process.env.TOKEN)
 
 bot.on('guildMemberAdd', member => {
     var role = member.guild.roles.find('name', 'Invité')
