@@ -19,7 +19,7 @@ bot.on('guildMemberAdd', member => {
 
 bot.on('guildMemberAdd', member => {
     member.createDM().then(channel =>{
-        return channel.send("A Définir")
+        return channel.send("Bienvenue sur le Discord du Montpellier Esport Club ! \nVous faites maintenant partie des invités du Serveur. Vous pouvez profiter de cet accès pour commencer à échanger avec les membres dans les salons ouverts. Si vous souhaitez nous rejoindre, vous devez faire votre présentation et contacter un des membres du staff du MEC pour le signaler. Il faudra ensuite que vous remplissiez la fiche d'inscription (disponible sur le site : http://www.montpellier-esport-club.fr/rejoignez-nous/) et que vous vous acquittiez de la cotisation annuelle.")
     }).catch(console.error);
 });
 
